@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  holadocker:
+    #generem amb el Dockerfile del directori on estem
+    build: .
+    ports:
+      # publiquem el port 80
+      - 80:80
